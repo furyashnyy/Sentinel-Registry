@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "name": "Sentinel registry",
+  "coreVersion": "1.0.0",
+  "files": ["apps.json", "rules.json", "keys.json", "owners.json"]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "version": 1,
+  "rules": [
+    {
+      "id": "SIG_KNOWN_LOADER_NAMES",
+      "title": "Known backdoor loader name",
+      "patterns": ["[\"']Vaccine[\"']", "[\"']Fire%-Starter[\"']", "[\"']SS Executor[\"']"],
+      "weight": 40,
+      "category": "Backdoor",
+      "explain": "The script mentions a name used by publicly known backdoor loaders."
+    }
+  ]
+}
