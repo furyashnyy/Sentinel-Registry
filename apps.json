@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "apps": [
+    {
+      "id": "remote-inspector",
+      "name": "Remote Inspector",
+      "description": "Lists every RemoteEvent and RemoteFunction, which server scripts handle it, and whether those handlers check argument types and rate-limit callers.",
+      "author": "Sentinel",
+      "version": "1.0.0",
+      "minCoreVersion": "0.1.0",
+      "category": "Security",
+      "permissions": [
+        "instances.read",
+        "selection",
+        "scanner"
+      ],
+      "iconAssetId": 0,
+      "sourceUrl": "https://raw.githubusercontent.com/furyashnyy/Sentinel-Registry/370eec951e11efa9c071a9af5f83345e5aba4eec/apps/remote-inspector.luau",
+      "sha256": "d27750e0d93ecfff9cc8a46ad2cbcf8f0f3adfd57c818733fdb09bba69637bc5"
+    }
+  ]
+}
